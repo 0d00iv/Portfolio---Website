@@ -1,0 +1,169 @@
+/* Custom Navbar Styling */
+.custom-navbar {
+    background-color:#000000; /* Dark gray background color */
+  }
+  
+  .custom-navbar .nav-link {
+    color: #fff; /* White text color */
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: #ff9800; /* Orange color on hover */
+  }
+  
+  .custom-navbar .navbar-brand {
+    color: #fff; /* White color for brand text */
+  }
+  
+  body {
+    background: linear-gradient(to right, #1c1c1c, #2e2e2e);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+
+  .display-4{
+    font-weight: 400;
+
+  }
+
+  .navbar-brand{
+    font-weight: 400;
+    font-size:2rem ;
+  }
+
+  .btn btn-primary custom-btn {
+    background-color: #6594c7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .btn btn-primary mt-3:hover {
+    background-color: #7994b1;
+  }
+  
+
+  /* About Me Section Styling */
+.about-section {
+  background: linear-gradient(to right, #1c1c1c, #2e2e2e);
+    color: white; /* black background color */
+  padding: 60px 0;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+  color: #cac0c0;
+  line-height: 1.6;
+}
+
+.name-highlight {
+  color: #F25278; /* Blue color for your name */
+  font-weight: bold;
+}
+
+/* Projects Section Styling */
+.projects-section {
+  background: linear-gradient(to right, #1c1c1c, #2e2e2e);
+    color: white;
+}
+
+.projects-section h2 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.card-text {
+  color: #333; /* Dark color for better visibility */
+  font-size: 16px;
+  margin-top: 10px; /* Adding some space between title and description */
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+.card img{
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  color: #007bff;
+}
+/* Resume Section Styling */
+.resume-section {
+  background: linear-gradient(to right, #1c1c1c, #2e2e2e);
+    color: white; /* White background */
+  padding: 60px 0;
+}
+
+.resume-section h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.resume-section p {
+  font-size: 1.1rem;
+  color: #cac0c0;
+  margin-bottom: 30px;
+}
+
+.resume-section a {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.resume-section a:hover {
+  background-color: #0056b3;
+}
+/* Contact Me Section Styling */
+.contact-section {
+  background: linear-gradient(to right, #1c1c1c, #2e2e2e);
+    color: white; /* Light gray background */
+  padding: 60px 0;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.contact-section p{
+  font-size: 1.2rem;
+}
+
+.contact-section form .form-control {
+  border: 1px solid #888383;
+  border-radius: 5px;
+}
+
+.contact-section button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.contact-section button:hover {
+  background-color: #000000;
+}
